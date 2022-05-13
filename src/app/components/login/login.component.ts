@@ -55,15 +55,7 @@ export class LoginComponent implements OnInit {
     });
   }
 
-  googleSignout() {
-    this.auth.signOut().then(() => {
-      console.log('Signout Succesfull')
-      this.autorizacao.deslogar()
-      this.usuarioEstaLogado = this.autorizacao.obterStatusLogin()
-    }, function(error) {
-      console.log('Signout Failed')
-    });
- }
+
 
   fazerLoginGoogle(){
     this.auth.signInWithPopup(new GoogleAuthProvider()).then((result) => {
