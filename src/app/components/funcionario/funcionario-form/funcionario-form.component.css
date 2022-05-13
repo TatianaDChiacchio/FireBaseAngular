@@ -1,0 +1,28 @@
+.valido-icon{
+  border-color:rgb(149, 151, 170)
+}
+
+.invalido-icon{
+  border-color: red
+}
+
+
+#file-input {
+  display: none;
+}
+
+.btn {
+  width: 150px;
+}
+
+.input{
+  width: 20ppx;
+}
+
+#foto{
+  display: block !important;
+  width: 158px !important;
+  height: 45px !important;
+  opacity: 0 !important;
+  overflow: hidden !important;
+}
